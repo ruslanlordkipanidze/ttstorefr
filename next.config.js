@@ -1,5 +1,6 @@
 const { withStoreConfig } = require("./store-config")
 const store = require("./store.config.json")
+const { withStoreConfig } = require("./store-config")
 
 module.exports = withStoreConfig({
   experimental: {
@@ -12,6 +13,7 @@ module.exports = withStoreConfig({
       "medusa-public-images.s3.eu-west-1.amazonaws.com",
       "localhost",
       "medusa-server-testing.s3.amazonaws.com",
+      "myawsbucketmedusa.s3.eu-central-1.amazonaws.com"
     ],
   },
 })
